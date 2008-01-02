@@ -13,6 +13,7 @@ Group:		Books/Howtos
 Source0:	howto-%{format}-en.tar.bz2
 Url:		http://www.linuxdoc.org/docs.html#howto
 License:	GPL
+BuildRoot:	%{_tmppath}/howto-%{format}-root
 BuildArchitectures: noarch
 Requires:   locales-en howto-utils
 BuildRequires:  howto-utils

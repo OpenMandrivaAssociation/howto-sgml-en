@@ -3,7 +3,7 @@
 %define format2	SGML/en
 
 %define version 2006
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary:	HOWTO documents (%{format} format) from the Linux Documentation Project
 Name:		howto-%{format}-en
